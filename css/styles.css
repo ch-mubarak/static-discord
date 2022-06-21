@@ -1,0 +1,274 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  text-align: center;
+  font-family: "Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+margin: 0;
+}
+hr{
+  color: #5865f2;
+  height: 0.5px;
+  border: none;
+  border-top: solid;
+  border-radius: 9px;
+}
+h1{
+  font-size: 56px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+h2{
+  margin: 50px auto 30px;
+  font-size: 48px;
+  font-weight: 800;
+line-height: 95%;
+}
+h4{
+  font-weight: 600;
+font-size: 32px;
+margin-bottom: 60px;
+}
+h3{
+  color: #5865f2;
+  font-size: 32px;
+  font-weight: 800;
+    line-height: 95%;
+}
+.top-container{
+  background-color: #404eed;
+  color: white;
+}
+.nav-bar{
+  display: flex;
+  justify-content:space-around;
+  background-color: #404eed;
+  align-items: center;
+  padding: 30px 10%;
+  margin: 0;
+  list-style: none;
+
+}
+.nav-links a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+
+}
+.nav-links a:hover{
+  text-decoration: underline;
+}
+.nav-bar li{
+  display: inline-block;
+  padding: 0 30px;
+}
+.nav-bar img{
+  width: 127px;
+}
+.mid-container{
+  text-align: left;
+  color: #23272a;
+}
+.top-body{
+  height: 624px;
+  background-image:url('../image/background.PNG');
+  text-align: center;
+}
+.top-heading{
+  width: 780px;
+  margin: 100px auto 50px auto;
+}
+p{
+  line-height: 1.625;
+}
+
+.mid-box1{
+  width: 1260px;
+  margin:100px auto;
+  display: flex;
+
+}
+
+.box-heading{
+  width:380px;
+  margin:0 auto;
+}
+.outer-box{
+    background-color: #f6f6f6;
+}
+
+.mid-box2{
+  width: 1260px;
+  margin:100px auto;
+  display: flex;
+
+}
+
+
+.mid-box3{
+  width: 1260px;
+  margin:100px auto;
+  display: flex;
+
+}
+.mid-box4{
+ text-align: center;
+  width: 1180px;
+  margin:100px auto;
+}
+.box4-heading{
+  padding-top: 20px;
+  margin: 10px auto;
+  width: 980px;
+}
+
+.Download{
+  width: 1260px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.Download-heading{
+  margin: auto;
+  width: 531px;
+  background-image: url('../image/downloadback.svg');
+  background-repeat: no-repeat;
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-size: 14px;
+  color: black;
+  background: #ffffff;
+  padding: 7px 16px 7px 16px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color:#6f7beb;
+}
+
+.btn-1 {
+  margin-right: 30px;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #000000;
+  font-size: 20px;
+  background: white;
+  padding: 16px 32px 16px 32px;
+  text-decoration: none;
+}
+
+.btn-1:hover {
+  color:#6f7beb;
+}
+
+.btn-2 {
+
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #202426;
+  padding: 16px 32px 16px 32px;
+  text-decoration: none;
+}
+
+.btn-2:hover {
+  background: #36393f;
+  text-decoration: none;
+}
+.btn-3{
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #5865f2;
+  padding: 16px 32px 16px 32px;
+  text-decoration: none;
+}
+
+.btn-3:hover {
+  background: #6f7beb;
+  text-decoration: none;
+}
+.bot-container{
+  background-color: #23272a;
+  color: white;
+}
+.copyright{
+  margin-top: 30px;
+  width: 280px;
+}
+
+.footer{
+  margin: auto;
+  width: 1260px;
+  display: flex;
+  justify-content:space-between;
+  text-align: left;
+  line-height: 2;
+}
+.footer img{
+  width: 24px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.footer ul{
+  list-style: none;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+.footer li{
+  color: #6f7beb
+}
+.Product{
+  margin-top: 30px;
+}
+.Company{
+  margin-top: 30px;
+}
+.Resources{
+  margin-top: 30px;
+}
+.Policies{
+  margin-top: 30px;
+}
+.footer-line{
+  margin: 10px auto;
+  width: 1260px;
+}
+.footer-image{
+  width:1260px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px
+
+}
+.footer-image img{
+  width: 127px;
+}
+.btn-4 {
+  -webkit-border-radius: 40;
+  -moz-border-radius: 40;
+  border-radius: 40px;
+  font-size: 14px;
+  color: #ffffff;
+  background: #5865f2;
+  padding: 7px 16px 7px 16px;
+  text-decoration: none;
+  line-height: 24px;
+}
+
+.btn-4:hover {
+  background: #6f7beb;
+  text-decoration: none;
+}
